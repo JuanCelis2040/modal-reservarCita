@@ -1,0 +1,127 @@
+body {
+    font-family: 'Poppins';
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 2000px;
+}
+
+.perfil-medico{
+    display: flex;
+    align-items: flex-start;
+    gap: 7px;
+    color: #918C8C;
+    
+}
+
+.imagen-medico{
+    background-color: #dbe9fe;
+    width: 250px;
+    border-radius: 15px;
+    padding-bottom: 0;
+}
+
+
+
+h4{
+    color: #203B8F;
+}
+
+h2 {
+    text-align: start;
+    font-size: 26px;
+    color: #203B8F;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+
+.form-row {
+
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.form-group button{
+    width: 80%;
+    height: 60%;
+    border-radius: 35px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    background-color: #FFFFFF;
+    color: #535353;
+    border-color: #D9D9D9;
+}
+
+.form-group, .form-group-full {
+    width: 30%;
+}
+
+.form-group-full {
+    width: 100%;
+}
+
+.form-group label, .form-group-full label {
+    margin-bottom: 5px;
+    color: #203B8F;
+}
+
+.form-group input, .form-group-full textarea, .form-group-full input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border-bottom: 1px solid #85898B;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-radius: 4px;
+}
+
+.form-group-full textarea {
+    height: 80px;
+}
+
+.form-group-full input[type="file"] {
+    padding: 3px;
+}
+
+.form-group-full button {
+    width: 100%;
+    padding: 10px;
+    background: rgb(31,63,174);
+    background: linear-gradient(90deg, rgba(31,63,174,1) 50%, rgba(25,52,143,1) 78%, rgba(13,26,72,1) 100%);
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-group-full button:hover {
+    background-color: #0056b3;
+}
+
+.form-group-full p {
+    margin: 0;
+    font-size: 16px;
+    color: #333333;
+    text-align: left;
+}
+
+.from-row-out span{
+    color: #203B8F ;
+}
+
+.from-row-out-button button{
+    width: 15%;
+}

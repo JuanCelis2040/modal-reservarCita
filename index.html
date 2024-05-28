@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva tu cita</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+<div class="container">
+    <div class="perfil-medico">
+        <div class="imagen-medico">
+            <img src="imagenes/Link → doctor_7.png.png" alt="">
+        </div>
+        <div class="info-medico">
+            <h4>DR.yifer Perez</h4>
+            <span>Oftalmologia</span>
+            <div class="calificacion"> 
+                <img src="icons/Star 2.svg" alt="">
+                <img src="icons/Star 2.svg" alt="">
+                <img src="icons/Star 2.svg" alt="">
+                <img src="icons/Star 2.svg" alt="">
+                <img src="icons/Star 2.svg" alt=""> 
+                <span>10 opiniones</span></div>
+            <span>Valor cita: 50.000 cop</span>
+        </div>
+    </div>
+    <div class="calendario"></div>
+        <div class="reservar">
+            <h2>Reserva tu cita</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nombres">Nombres:</label>
+                        <input type="text" id="nombres" name="nombres" placeholder="Placeholder">
+                    </div>
+                    <div class="form-group">
+                        <label for="apellidos">Apellidos:</label>
+                        <input type="text" id="apellidos" name="apellidos" placeholder="Placeholder">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="documento">Documento:</label>
+                        <input type="text" id="documento" name="documento" placeholder="Placeholder">
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" id="correo" name="correo" placeholder="Placeholder">
+                    </div>
+                </div>
+                <div class="form-row-out">
+                    <div class="form-group">
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Placeholder">
+                    </div>
+                    <div class="form-group">
+                        <label for="examenes">Subir examenes:</label>
+                        <button>Insertar</button>
+                    </button>
+                    </div>
+                </div>
+               
+            </form>
+            <div class="form-row-out">
+                <div class="form-group-full">
+                    <label for="motivo">Motivo:</label>
+                    <textarea id="motivo" name="motivo" placeholder="Placeholder"></textarea>
+                </div>
+            </div>
+            <div class="form-row-out">
+                <div class="form-group-full">
+                    <span>Precio total:</span>
+                    <p> 50,000 COP</p>
+                </div>
+            </div>
+            <div class="form-row-out-button">
+                <div class="form-group-full">
+                    <button type="submit">Pagar</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
